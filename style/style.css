@@ -126,3 +126,120 @@ text-transform: uppercase;
     font-size: 20px;
     color: #0B0223;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responcive for mobile */
+@media screen and (max-width:576px) {
+   
+    .nav{
+        flex-direction: column;
+        padding: 40px;
+        align-items: center;
+        margin-left: 90px;
+    }
+    img{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .nav ul{
+        flex-direction: column;
+        margin-top: 30px;
+        gap: 20px;
+        margin-left: 30px;
+    }
+    .main-header{
+        flex-direction: column;
+        margin-left: 80px;
+        margin-bottom: 30px;
+        gap: 40px;
+        
+    }
+    .another-header{
+        flex-direction: column;
+        padding: 0px;
+        margin-left: 40px;
+        margin-bottom: 40px;
+    }
+    .header-img2{
+        width: 450px;
+    }
+    
+}
+
+
+
+
+
+
+/* responcive for tavelTe */
+
+@media screen and (min-width:576px) and (max-width:990px) {
+
+
+    .nav{
+        padding:39px 50px;
+        
+        justify-content: space-around;
+    }
+
+    .main-header{
+        flex-direction: column;
+        margin-left: 80px;
+        margin-bottom: 30px;
+        gap: 40px;
+        
+    }
+    .another-header{
+        flex-direction: column;
+        padding: 50px;
+        margin-left: 40px;
+        margin-bottom: 40px;
+    }
+    .img{
+        margin-top: 100px;
+    }
+}
+
+
