@@ -217,9 +217,34 @@ text-transform: uppercase;
 
 /* main section theree */
 
+.thrd-main-part{
+    background-color:#fe98ba;
+    height: 450px;
+}
+.tird-main-taile-container{
+    padding: 70px 180px;
+    width: 400px;
+}
 
+.tied-main-taitle{
+    color: rgb(253, 245, 245);
+    margin-bottom: 15px;
+    font-size: 25px;
 
+}
+.tied-main-dicp{
+    color: rgb(253, 245, 245);
+}
 
+.trid-li-container{
+    display: flex;
+    gap: 50px;
+    margin-top:30px ;
+    color: rgb(254, 252, 252);
+}
+.list-2nd{
+    text-align: right;
+}
 
 
 
