@@ -289,7 +289,7 @@ text-transform: uppercase;
 
 
 .frist-footer{
-    width: 1100px;
+    width: 800px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -302,7 +302,7 @@ text-transform: uppercase;
 
 .logo-container{
     display: flex;
-    flex-basis: 180px ;
+    flex-basis: 200px ;
     align-items: center;
     
 
@@ -326,7 +326,7 @@ text-transform: uppercase;
 /* last footer*/
 .last-footer{
     height: 400px;
-    background-color: #ee8ad7;
+    background-color: #0B0223;
     
     
 }
@@ -354,6 +354,7 @@ text-transform: uppercase;
 .footer-items ul li{
     list-style: none;
     margin-left: 40px;
+    color: white;
 }
 .footer-items{
     text-align: center;
@@ -369,9 +370,11 @@ text-transform: uppercase;
 }
 .last-point ul li{
     list-style: none;
+    color: rgb(197, 204, 209);
 }
 .last-date{
     margin-top: 10px;
+    color: rgb(203, 208, 213);
 }
 
 
