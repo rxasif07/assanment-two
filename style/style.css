@@ -289,22 +289,90 @@ text-transform: uppercase;
 
 
 .frist-footer{
-    width: 1000px;
+    width: 1100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 40px auto;
+    gap: 20px;
+    
     
     
 }
 
 .logo-container{
     display: flex;
-    flex-basis: 190px ;
+    flex-basis: 180px ;
     align-items: center;
+    
 
 }
+.gamer-logo{
+    width:30px;
+    height: 30px;
+}
+.game-btn{
+    background-color: rgb(249, 242, 242);
+    border-radius: 30px;
+    padding: 5px 6px;
+    border: 0px;
+    
+}
+.game-btn:hover{
+    border: 1px solid red;
+    color: red;
+}
 
+/* last footer*/
+.last-footer{
+    height: 400px;
+    background-color: #ee8ad7;
+    
+    
+}
+.last-gamer{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    color: white;
+    gap: 10px;
+
+}
+.icon{
+    height: 40px;
+    width: 40px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.footer-items ul{
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+.footer-items ul li{
+    list-style: none;
+    margin-left: 40px;
+}
+.footer-items{
+    text-align: center;
+}
+.last-point{
+    text-align: center;
+}
+.last-point ul{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.last-point ul li{
+    list-style: none;
+}
+.last-date{
+    margin-top: 10px;
+}
 
 
 
@@ -450,56 +518,6 @@ text-transform: uppercase;
         flex-direction: column;
      }
 
-}
-/* last footer*/
-.last-footer{
-    height: 400px;
-    background-color: #ee8ad7;
-    
-    
-}
-.last-gamer{
-    display: flex;
-    justify-content: center;
-    padding: 80px;
-    color: white;
-    gap: 10px;
-
-}
-.icon{
-    height: 40px;
-    width: 40px;
-    margin-top: 50px;
-    margin-left: 30px;
-}
-.footer-items ul{
-    display: flex;
-    justify-content: center;
-    
-
-
-}
-.footer-items ul li{
-    list-style: none;
-    margin-left: 40px;
-}
-.footer-items{
-    text-align: center;
-}
-.last-point{
-    text-align: center;
-}
-.last-point ul{
-    display: flex;
-    gap: 40px;
-    justify-content: center;
-    margin-top: 20px;
-}
-.last-point ul li{
-    list-style: none;
-}
-.last-date{
-    margin-top: 10px;
 }
 
 
